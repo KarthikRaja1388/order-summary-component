@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.spacing{
+    padding: 0.5rem;
+}
+
+.main{
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.container{
+    background-color: hsl(225, 100%, 98%);
+}
+.hero-img{
+    max-width: 100%;
+}
+.content{
+    padding: 1rem;
+
+}
+.content-title{
+    color: hsl(223, 47%, 23%);
+}
+.content-desc{
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+}
+.content-pricing-panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%,0.4);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+.content-price{
+    flex:2;
+    margin-left: 1.5em;
+}
+.content-plan-name{
+    color: hsl(223, 47%, 23%);
+    font-weight: 500;
+}
+.price{
+    color: hsl(224, 23%, 55%);
+}
+.content-pricing-panel a:hover{
+    text-decoration: none;
+}
+.btn-proceed{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    margin-top: 1em;
+    padding: 0.8em;
+}
+.btn-proceed:hover{
+    background-color: hsl(245, 75%, 52%, 0.8);
+    box-shadow: 0px 10px 5px hsl(245, 75%, 52%, 0.2);
+}
+.btn-cancel{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin: 1em 0;
+}
+.btn-cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media all and (min-width:600px){
+    .main{
+        max-width:350px;
+
+    }
+
+}
