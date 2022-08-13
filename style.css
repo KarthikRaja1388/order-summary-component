@@ -14,7 +14,7 @@ body{
     text-align: center;
 }
 .spacing{
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .main{
@@ -33,10 +33,7 @@ body{
 .hero-img{
     max-width: 100%;
 }
-.content{
-    padding: 1rem;
 
-}
 .content-title{
     color: hsl(223, 47%, 23%);
 }
@@ -50,7 +47,8 @@ body{
     align-items: center;
     background-color: hsl(225, 100%, 94%,0.4);
     border-radius: 0.5rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+    padding: 1em;
 }
 .content-price{
     flex:2;
@@ -95,7 +93,7 @@ body{
 
 @media all and (min-width:600px){
     .main{
-        max-width:350px;
+        max-width:400px;
 
     }
 
